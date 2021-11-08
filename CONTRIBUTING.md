@@ -23,7 +23,7 @@ Check out the [Stellar Contribution Guide](https://github.com/stellar/.github/bl
 * Label issues with `feature request` if they're a feature request.
 
 ### Pull Requests
-
+* PR titles follow the same rules as described in the [Issues](#Issues) section above.
 * PRs must update the [CHANGELOG](CHANGELOG.md) with a small description of the change
 * PRs are merged into master or release branch using squash merge
 * Carefully think about where your PR fits according to [semver](https://semver.org). Target it at master if it’s only a patch change, otherwise if it contains breaking change or significant feature additions, set the base branch to the next major or minor release.
